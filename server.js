@@ -7,7 +7,7 @@ app.use(cors());
 app.use(express.json());
 
 mongoose.connect(
-  "mongodb+srv://java:gogomaster@database.qrvyh.mongodb.net/videoc?retryWrites=true&w=majority",
+  "localhost://",
   { useNewUrlParser: true, useUnifiedTopology: true }
 );
 
